@@ -1,6 +1,6 @@
 # Title
 
-e2e api integration test
+api integration test
 
 ##Description
 the test framework `mocha+supertest+chai`
