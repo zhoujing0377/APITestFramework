@@ -1,0 +1,30 @@
+
+[0m[0m
+[0m  Feature: Reservation
+  As a SA
+  I want to view the reservation list[0m
+  [32m  ✓[0m[90m Given SA can login to app[0m[31m (769ms)[0m
+  [32m  ✓[0m[90m When OAB post the new created reservation into OTR[0m[31m (79ms)[0m
+  [32m  ✓[0m[90m And SA views the reservation for today[0m[31m (189ms)[0m
+  [31m  1) And SA can view the detail page for new reservation[0m
+
+
+[92m [0m[32m 3 passing[0m[90m (1s)[0m
+[31m  1 failing[0m
+
+[0m  1) Feature: Reservation
+  As a SA
+  I want to view the reservation list And SA can view the detail page for new reservation:
+[0m[31m     Uncaught TypeError: Cannot read property 'should' of undefined[0m[90m
+    at Test.<anonymous> (test/scenario/reservation.js:82:36)
+    at Test.assert (node_modules/supertest/lib/test.js:179:6)
+    at assert (node_modules/supertest/lib/test.js:131:12)
+    at node_modules/supertest/lib/test.js:128:5
+    at Test.Request.callback (node_modules/superagent/lib/node/index.js:699:3)
+    at node_modules/superagent/lib/node/index.js:868:18
+    at IncomingMessage.<anonymous> (node_modules/superagent/lib/node/parsers/json.js:16:7)
+    at endReadableNT (_stream_readable.js:905:12)
+  
+[0m
+
+

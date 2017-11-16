@@ -1,0 +1,28 @@
+{
+  "name": "api-integration-test",
+  "version": "1.0.0",
+  "description": "api integration testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/otr-as/api-integration-test.git"
+  },
+  "author": "Zhou Jing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/otr-as/api-integration-test/issues"
+  },
+  "homepage": "https://gitlab.com/otr-as/api-integration-test#README.md",
+
+  "dependencies": {
+    "grunt-mocha-test": "^0.13.2",
+    "chai": "4.1.2",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "mocha": "3.5.3",
+    "supertest": "3.0.0"
+  }
+}
